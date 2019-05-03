@@ -3,7 +3,7 @@ const database = require('./database');
 const config = require('./config');
 
 database().then(info => {
-   console.log('Connected to mongoDB');
+   console.log('Connected to DataBase!');
    app.listen(config.PORT, () =>
        console.log(`Example app listening on port ${config.PORT}!`)
    );
